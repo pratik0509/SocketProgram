@@ -23,7 +23,6 @@ int main(int argc, char const *argv[]) {
 	int sockfd;										// Socket file descriptor
 	struct sockaddr_in addr;						// Details related to socket address
 	socklen_t sin_size;
-	int client_addr;
 	int client_fd;
 	int fd;
 	int opt = 1;
